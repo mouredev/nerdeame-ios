@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3997C96DB6F356B51AA2A1C3 /* Pods_nerdeame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */; };
 		ACE2D71524F95D9700D51DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */; };
 		ACE2D71724F95D9700D51DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */; };
 		ACE2D71924F95D9700D51DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71824F95D9700D51DF4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nerdeame_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE2D71124F95D9700D51DF4 /* Nerdéame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nerdéame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE2D72024F95D9900D51DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE2D72224F95D9900D51DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.release.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.release.xcconfig"; sourceTree = "<group>"; };
+		ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.debug.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3997C96DB6F356B51AA2A1C3 /* Pods_nerdeame_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 		90C87646814771C60D377E02 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */,
+				D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -50,6 +57,7 @@
 				ACE2D71324F95D9700D51DF4 /* nerdeame-ios */,
 				ACE2D71224F95D9700D51DF4 /* Products */,
 				90C87646814771C60D377E02 /* Pods */,
+				CD7F4B41F4D91E0D3064B88C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +123,14 @@
 			path = Launch;
 			sourceTree = "<group>";
 		};
+		CD7F4B41F4D91E0D3064B88C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACE2D72524F95D9900D51DF4 /* Build configuration list for PBXNativeTarget "nerdeame-ios" */;
 			buildPhases = (
+				E0A66311182B0CFF81EE5D48 /* [CP] Check Pods Manifest.lock */,
 				ACE2D70D24F95D9700D51DF4 /* Sources */,
 				ACE2D70E24F95D9700D51DF4 /* Frameworks */,
 				ACE2D70F24F95D9700D51DF4 /* Resources */,
+				C998F5FBC7B5C8D5733A16BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,6 +198,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C998F5FBC7B5C8D5733A16BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A66311182B0CFF81EE5D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nerdeame-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACE2D70D24F95D9700D51DF4 /* Sources */ = {
@@ -330,11 +390,12 @@
 		};
 		ACE2D72624F95D9900D51DF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJGR47U9J5;
-				INFOPLIST_FILE = "nerdeame-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/nerdeame-ios/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,11 +410,12 @@
 		};
 		ACE2D72724F95D9900D51DF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJGR47U9J5;
-				INFOPLIST_FILE = "nerdeame-ios/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/nerdeame-ios/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

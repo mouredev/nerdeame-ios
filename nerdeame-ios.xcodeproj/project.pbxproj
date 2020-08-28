@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E889D0D770A1C6C6A2B224D /* Pods_nerdeame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F80B13D9EEFEEB8338C1E00 /* Pods_nerdeame_ios.framework */; };
+		ACE2D71524F95D9700D51DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */; };
+		ACE2D71724F95D9700D51DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */; };
+		ACE2D71924F95D9700D51DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71824F95D9700D51DF4 /* ViewController.swift */; };
+		ACE2D71C24F95D9700D51DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D71A24F95D9700D51DF4 /* Main.storyboard */; };
+		ACE2D71E24F95D9900D51DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */; };
+		ACE2D72124F95D9900D51DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F80B13D9EEFEEB8338C1E00 /* Pods_nerdeame_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nerdeame_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924FF46C5067DA495DAEE026 /* Pods-nerdeame-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.release.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.release.xcconfig"; sourceTree = "<group>"; };
+		ACE2D71124F95D9700D51DF4 /* Nerdéame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nerdéame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACE2D71824F95D9700D51DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE2D71B24F95D9700D51DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE2D72024F95D9900D51DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE2D72224F95D9900D51DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D992E1A4A3D3E75783668C /* Pods-nerdeame-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.debug.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE2D70E24F95D9700D51DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E889D0D770A1C6C6A2B224D /* Pods_nerdeame_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C87646814771C60D377E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4D992E1A4A3D3E75783668C /* Pods-nerdeame-ios.debug.xcconfig */,
+				924FF46C5067DA495DAEE026 /* Pods-nerdeame-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACE2D70824F95D9700D51DF4 = {
+			isa = PBXGroup;
+			children = (
+				ACE2D71324F95D9700D51DF4 /* nerdeame-ios */,
+				ACE2D71224F95D9700D51DF4 /* Products */,
+				90C87646814771C60D377E02 /* Pods */,
+				EFCC5BC94556769D9D72E698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE2D71224F95D9700D51DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D71124F95D9700D51DF4 /* Nerdéame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE2D71324F95D9700D51DF4 /* nerdeame-ios */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */,
+				ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */,
+				ACE2D71824F95D9700D51DF4 /* ViewController.swift */,
+				ACE2D71A24F95D9700D51DF4 /* Main.storyboard */,
+				ACE2D72824F95F7000D51DF4 /* UseCases */,
+				ACE2D72B24F95F9900D51DF4 /* Provider */,
+				ACE2D72A24F95F9200D51DF4 /* Util */,
+				ACE2D72924F95F7C00D51DF4 /* SupportingFiles */,
+				ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */,
+			);
+			path = "nerdeame-ios";
+			sourceTree = "<group>";
+		};
+		ACE2D72824F95F7000D51DF4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D72C24F95FF200D51DF4 /* Launch */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		ACE2D72924F95F7C00D51DF4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D72224F95D9900D51DF4 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		ACE2D72A24F95F9200D51DF4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		ACE2D72B24F95F9900D51DF4 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		ACE2D72C24F95FF200D51DF4 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		EFCC5BC94556769D9D72E698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F80B13D9EEFEEB8338C1E00 /* Pods_nerdeame_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE2D71024F95D9700D51DF4 /* nerdeame-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE2D72524F95D9900D51DF4 /* Build configuration list for PBXNativeTarget "nerdeame-ios" */;
+			buildPhases = (
+				D3E50961C23472EEAF354BF7 /* [CP] Check Pods Manifest.lock */,
+				ACE2D70D24F95D9700D51DF4 /* Sources */,
+				ACE2D70E24F95D9700D51DF4 /* Frameworks */,
+				ACE2D70F24F95D9700D51DF4 /* Resources */,
+				FB2D37E6157F4924F3E26B3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nerdeame-ios";
+			productName = "nerdeame-ios";
+			productReference = ACE2D71124F95D9700D51DF4 /* Nerdéame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE2D70924F95D9700D51DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = MoureDev;
+				TargetAttributes = {
+					ACE2D71024F95D9700D51DF4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = ACE2D70C24F95D9700D51DF4 /* Build configuration list for PBXProject "nerdeame-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE2D70824F95D9700D51DF4;
+			productRefGroup = ACE2D71224F95D9700D51DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE2D71024F95D9700D51DF4 /* nerdeame-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE2D70F24F95D9700D51DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D72124F95D9900D51DF4 /* LaunchScreen.storyboard in Resources */,
+				ACE2D71E24F95D9900D51DF4 /* Assets.xcassets in Resources */,
+				ACE2D71C24F95D9700D51DF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3E50961C23472EEAF354BF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nerdeame-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2D37E6157F4924F3E26B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE2D70D24F95D9700D51DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE2D71924F95D9700D51DF4 /* ViewController.swift in Sources */,
+				ACE2D71524F95D9700D51DF4 /* AppDelegate.swift in Sources */,
+				ACE2D71724F95D9700D51DF4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACE2D71A24F95D9700D51DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE2D71B24F95D9700D51DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE2D72024F95D9900D51DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE2D72324F95D9900D51DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACE2D72424F95D9900D51DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE2D72624F95D9900D51DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D992E1A4A3D3E75783668C /* Pods-nerdeame-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = "nerdeame-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mouredev.nerdeame-ios";
+				PRODUCT_NAME = "Nerdéame";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE2D72724F95D9900D51DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924FF46C5067DA495DAEE026 /* Pods-nerdeame-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = "nerdeame-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mouredev.nerdeame-ios";
+				PRODUCT_NAME = "Nerdéame";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE2D70C24F95D9700D51DF4 /* Build configuration list for PBXProject "nerdeame-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D72324F95D9900D51DF4 /* Debug */,
+				ACE2D72424F95D9900D51DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE2D72524F95D9900D51DF4 /* Build configuration list for PBXNativeTarget "nerdeame-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE2D72624F95D9900D51DF4 /* Debug */,
+				ACE2D72724F95D9900D51DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE2D70924F95D9700D51DF4 /* Project object */;
+}

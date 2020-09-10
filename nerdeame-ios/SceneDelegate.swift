@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
             
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = UINavigationController()
+        window.rootViewController = CategoriesViewController().embeddedInNavigation()
         self.window = window
         window.makeKeyAndVisible()
     }

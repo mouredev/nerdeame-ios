@@ -3,199 +3,179 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3997C96DB6F356B51AA2A1C3 /* Pods_nerdeame_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */; };
-		AC0D16E7250A8E74005E08EC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16E5250A8E74005E08EC /* CategoriesViewController.swift */; };
-		AC0D16E8250A8E74005E08EC /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0D16E6250A8E74005E08EC /* CategoriesViewController.xib */; };
-		AC0D16EB250A8FC6005E08EC /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16EA250A8FC6005E08EC /* UIViewControllerExtension.swift */; };
-		AC0D16ED250A92A9005E08EC /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16EC250A92A9005E08EC /* UITableViewExtension.swift */; };
-		AC0D16F2250A9591005E08EC /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16F0250A9591005E08EC /* CategoryTableViewCell.swift */; };
-		AC0D16F3250A9591005E08EC /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC0D16F1250A9591005E08EC /* CategoryTableViewCell.xib */; };
-		AC0D16F5250A96CA005E08EC /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16F4250A96CA005E08EC /* UITableViewCellExtension.swift */; };
-		AC0D16F7250A9773005E08EC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16F6250A9773005E08EC /* UIColorExtension.swift */; };
-		AC0D16F9250A9B6F005E08EC /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0D16F8250A9B6F005E08EC /* UILabelExtension.swift */; };
-		ACE2D71524F95D9700D51DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */; };
-		ACE2D71724F95D9700D51DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */; };
-		ACE2D71E24F95D9900D51DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */; };
-		ACE2D72124F95D9900D51DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */; };
+		AC93B1CD251BC3EA00EA207A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1CC251BC3EA00EA207A /* AppDelegate.swift */; };
+		AC93B1CF251BC3EA00EA207A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1CE251BC3EA00EA207A /* SceneDelegate.swift */; };
+		AC93B1D6251BC3EB00EA207A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC93B1D5251BC3EB00EA207A /* Assets.xcassets */; };
+		AC93B1D9251BC3EB00EA207A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC93B1D7251BC3EB00EA207A /* LaunchScreen.storyboard */; };
+		AC93B1EF251BC44000EA207A /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC93B1E7251BC44000EA207A /* CategoriesViewController.xib */; };
+		AC93B1F0251BC44000EA207A /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1E8251BC44000EA207A /* CategoriesViewController.swift */; };
+		AC93B1F1251BC44000EA207A /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1EA251BC44000EA207A /* CategoryTableViewCell.swift */; };
+		AC93B1F2251BC44000EA207A /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC93B1EB251BC44000EA207A /* CategoryTableViewCell.xib */; };
+		AC93B1FC251BC45700EA207A /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1F7251BC45700EA207A /* UITableViewCellExtension.swift */; };
+		AC93B1FD251BC45700EA207A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1F8251BC45700EA207A /* UIColorExtension.swift */; };
+		AC93B1FE251BC45700EA207A /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1F9251BC45700EA207A /* UILabelExtension.swift */; };
+		AC93B1FF251BC45700EA207A /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1FA251BC45700EA207A /* UIViewControllerExtension.swift */; };
+		AC93B200251BC45700EA207A /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1FB251BC45700EA207A /* UITableViewExtension.swift */; };
+		AC93B209251BCF0000EA207A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC93B208251BCF0000EA207A /* Localizable.strings */; };
+		AC93B20C251BCF8B00EA207A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B20B251BCF8B00EA207A /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nerdeame_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0D16E5250A8E74005E08EC /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
-		AC0D16E6250A8E74005E08EC /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
-		AC0D16EA250A8FC6005E08EC /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		AC0D16EC250A92A9005E08EC /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		AC0D16F0250A9591005E08EC /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
-		AC0D16F1250A9591005E08EC /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
-		AC0D16F4250A96CA005E08EC /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
-		AC0D16F6250A9773005E08EC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		AC0D16F8250A9B6F005E08EC /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
-		ACE2D71124F95D9700D51DF4 /* Nerdéame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nerdéame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACE2D72024F95D9900D51DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACE2D72224F95D9900D51DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.release.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.release.xcconfig"; sourceTree = "<group>"; };
-		ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nerdeame-ios.debug.xcconfig"; path = "Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		AC93B1C9251BC3EA00EA207A /* nerdeame-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nerdeame-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC93B1CC251BC3EA00EA207A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC93B1CE251BC3EA00EA207A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC93B1D5251BC3EB00EA207A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC93B1D8251BC3EB00EA207A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC93B1DA251BC3EB00EA207A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC93B1E7251BC44000EA207A /* CategoriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		AC93B1E8251BC44000EA207A /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		AC93B1EA251BC44000EA207A /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		AC93B1EB251BC44000EA207A /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		AC93B1F7251BC45700EA207A /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		AC93B1F8251BC45700EA207A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		AC93B1F9251BC45700EA207A /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		AC93B1FA251BC45700EA207A /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		AC93B1FB251BC45700EA207A /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		AC93B208251BCF0000EA207A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		AC93B20B251BCF8B00EA207A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ACE2D70E24F95D9700D51DF4 /* Frameworks */ = {
+		AC93B1C6251BC3EA00EA207A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3997C96DB6F356B51AA2A1C3 /* Pods_nerdeame_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90C87646814771C60D377E02 /* Pods */ = {
+		AC93B1C0251BC3EA00EA207A = {
 			isa = PBXGroup;
 			children = (
-				ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */,
-				D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */,
+				AC93B1CB251BC3EA00EA207A /* nerdeame-ios */,
+				AC93B1CA251BC3EA00EA207A /* Products */,
 			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
-		AC0D16E4250A8E3A005E08EC /* Categories */ = {
+		AC93B1CA251BC3EA00EA207A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC0D16E6250A8E74005E08EC /* CategoriesViewController.xib */,
-				AC0D16E5250A8E74005E08EC /* CategoriesViewController.swift */,
-				AC0D16EF250A9565005E08EC /* Cell */,
+				AC93B1C9251BC3EA00EA207A /* nerdeame-ios.app */,
 			);
-			path = Categories;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		AC0D16E9250A8F94005E08EC /* Extension */ = {
+		AC93B1CB251BC3EA00EA207A /* nerdeame-ios */ = {
 			isa = PBXGroup;
 			children = (
-				AC0D16EA250A8FC6005E08EC /* UIViewControllerExtension.swift */,
-				AC0D16EC250A92A9005E08EC /* UITableViewExtension.swift */,
-				AC0D16F4250A96CA005E08EC /* UITableViewCellExtension.swift */,
-				AC0D16F6250A9773005E08EC /* UIColorExtension.swift */,
-				AC0D16F8250A9B6F005E08EC /* UILabelExtension.swift */,
+				AC93B1CC251BC3EA00EA207A /* AppDelegate.swift */,
+				AC93B1CE251BC3EA00EA207A /* SceneDelegate.swift */,
+				AC93B1E4251BC41B00EA207A /* UseCases */,
+				AC93B202251BC46000EA207A /* Provider */,
+				AC93B1F5251BC45700EA207A /* Util */,
+				AC93B203251BC47800EA207A /* SupportingFiles */,
+				AC93B1D5251BC3EB00EA207A /* Assets.xcassets */,
 			);
-			path = Extension;
+			path = "nerdeame-ios";
 			sourceTree = "<group>";
 		};
-		AC0D16EE250A9553005E08EC /* Common */ = {
+		AC93B1E4251BC41B00EA207A /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				AC93B1EC251BC44000EA207A /* Launch */,
+				AC93B1E6251BC44000EA207A /* Categories */,
+				AC93B1E5251BC44000EA207A /* Common */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		AC93B1E5251BC44000EA207A /* Common */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		AC0D16EF250A9565005E08EC /* Cell */ = {
+		AC93B1E6251BC44000EA207A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				AC0D16F1250A9591005E08EC /* CategoryTableViewCell.xib */,
-				AC0D16F0250A9591005E08EC /* CategoryTableViewCell.swift */,
+				AC93B1E7251BC44000EA207A /* CategoriesViewController.xib */,
+				AC93B1E8251BC44000EA207A /* CategoriesViewController.swift */,
+				AC93B1E9251BC44000EA207A /* Cell */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		AC93B1E9251BC44000EA207A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AC93B1EB251BC44000EA207A /* CategoryTableViewCell.xib */,
+				AC93B1EA251BC44000EA207A /* CategoryTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		ACE2D70824F95D9700D51DF4 = {
+		AC93B1EC251BC44000EA207A /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				ACE2D71324F95D9700D51DF4 /* nerdeame-ios */,
-				ACE2D71224F95D9700D51DF4 /* Products */,
-				90C87646814771C60D377E02 /* Pods */,
-				CD7F4B41F4D91E0D3064B88C /* Frameworks */,
+				AC93B1D7251BC3EB00EA207A /* LaunchScreen.storyboard */,
 			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
-		ACE2D71224F95D9700D51DF4 /* Products */ = {
+		AC93B1F5251BC45700EA207A /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				ACE2D71124F95D9700D51DF4 /* Nerdéame.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		ACE2D71324F95D9700D51DF4 /* nerdeame-ios */ = {
-			isa = PBXGroup;
-			children = (
-				ACE2D71424F95D9700D51DF4 /* AppDelegate.swift */,
-				ACE2D71624F95D9700D51DF4 /* SceneDelegate.swift */,
-				ACE2D72824F95F7000D51DF4 /* UseCases */,
-				ACE2D72B24F95F9900D51DF4 /* Provider */,
-				ACE2D72A24F95F9200D51DF4 /* Util */,
-				ACE2D72924F95F7C00D51DF4 /* SupportingFiles */,
-				ACE2D71D24F95D9900D51DF4 /* Assets.xcassets */,
-			);
-			path = "nerdeame-ios";
-			sourceTree = "<group>";
-		};
-		ACE2D72824F95F7000D51DF4 /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-				ACE2D72C24F95FF200D51DF4 /* Launch */,
-				AC0D16E4250A8E3A005E08EC /* Categories */,
-				AC0D16EE250A9553005E08EC /* Common */,
-			);
-			path = UseCases;
-			sourceTree = "<group>";
-		};
-		ACE2D72924F95F7C00D51DF4 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				ACE2D72224F95D9900D51DF4 /* Info.plist */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		ACE2D72A24F95F9200D51DF4 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				AC0D16E9250A8F94005E08EC /* Extension */,
+				AC93B1F6251BC45700EA207A /* Extension */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		ACE2D72B24F95F9900D51DF4 /* Provider */ = {
+		AC93B1F6251BC45700EA207A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AC93B1F7251BC45700EA207A /* UITableViewCellExtension.swift */,
+				AC93B1F8251BC45700EA207A /* UIColorExtension.swift */,
+				AC93B1F9251BC45700EA207A /* UILabelExtension.swift */,
+				AC93B1FA251BC45700EA207A /* UIViewControllerExtension.swift */,
+				AC93B1FB251BC45700EA207A /* UITableViewExtension.swift */,
+				AC93B20B251BCF8B00EA207A /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AC93B202251BC46000EA207A /* Provider */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Provider;
 			sourceTree = "<group>";
 		};
-		ACE2D72C24F95FF200D51DF4 /* Launch */ = {
+		AC93B203251BC47800EA207A /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */,
+				AC93B1DA251BC3EB00EA207A /* Info.plist */,
+				AC93B208251BCF0000EA207A /* Localizable.strings */,
 			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
-		CD7F4B41F4D91E0D3064B88C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				933B4DF03BD684700C0192D4 /* Pods_nerdeame_ios.framework */,
-			);
-			name = Frameworks;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ACE2D71024F95D9700D51DF4 /* nerdeame-ios */ = {
+		AC93B1C8251BC3EA00EA207A /* nerdeame-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACE2D72524F95D9900D51DF4 /* Build configuration list for PBXNativeTarget "nerdeame-ios" */;
+			buildConfigurationList = AC93B1DD251BC3EB00EA207A /* Build configuration list for PBXNativeTarget "nerdeame-ios" */;
 			buildPhases = (
-				E0A66311182B0CFF81EE5D48 /* [CP] Check Pods Manifest.lock */,
-				ACE2D70D24F95D9700D51DF4 /* Sources */,
-				ACE2D70E24F95D9700D51DF4 /* Frameworks */,
-				ACE2D70F24F95D9700D51DF4 /* Resources */,
-				C998F5FBC7B5C8D5733A16BE /* [CP] Embed Pods Frameworks */,
+				AC93B1C5251BC3EA00EA207A /* Sources */,
+				AC93B1C6251BC3EA00EA207A /* Frameworks */,
+				AC93B1C7251BC3EA00EA207A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -203,25 +183,24 @@
 			);
 			name = "nerdeame-ios";
 			productName = "nerdeame-ios";
-			productReference = ACE2D71124F95D9700D51DF4 /* Nerdéame.app */;
+			productReference = AC93B1C9251BC3EA00EA207A /* nerdeame-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ACE2D70924F95D9700D51DF4 /* Project object */ = {
+		AC93B1C1251BC3EA00EA207A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
-				ORGANIZATIONNAME = MoureDev;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					ACE2D71024F95D9700D51DF4 = {
-						CreatedOnToolsVersion = 11.6;
+					AC93B1C8251BC3EA00EA207A = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = ACE2D70C24F95D9700D51DF4 /* Build configuration list for PBXProject "nerdeame-ios" */;
+			buildConfigurationList = AC93B1C4251BC3EA00EA207A /* Build configuration list for PBXProject "nerdeame-ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,96 +208,56 @@
 				en,
 				Base,
 			);
-			mainGroup = ACE2D70824F95D9700D51DF4;
-			productRefGroup = ACE2D71224F95D9700D51DF4 /* Products */;
+			mainGroup = AC93B1C0251BC3EA00EA207A;
+			productRefGroup = AC93B1CA251BC3EA00EA207A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACE2D71024F95D9700D51DF4 /* nerdeame-ios */,
+				AC93B1C8251BC3EA00EA207A /* nerdeame-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ACE2D70F24F95D9700D51DF4 /* Resources */ = {
+		AC93B1C7251BC3EA00EA207A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE2D72124F95D9900D51DF4 /* LaunchScreen.storyboard in Resources */,
-				ACE2D71E24F95D9900D51DF4 /* Assets.xcassets in Resources */,
-				AC0D16E8250A8E74005E08EC /* CategoriesViewController.xib in Resources */,
-				AC0D16F3250A9591005E08EC /* CategoryTableViewCell.xib in Resources */,
+				AC93B209251BCF0000EA207A /* Localizable.strings in Resources */,
+				AC93B1D9251BC3EB00EA207A /* LaunchScreen.storyboard in Resources */,
+				AC93B1D6251BC3EB00EA207A /* Assets.xcassets in Resources */,
+				AC93B1EF251BC44000EA207A /* CategoriesViewController.xib in Resources */,
+				AC93B1F2251BC44000EA207A /* CategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		C998F5FBC7B5C8D5733A16BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nerdeame-ios/Pods-nerdeame-ios-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0A66311182B0CFF81EE5D48 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-nerdeame-ios-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		ACE2D70D24F95D9700D51DF4 /* Sources */ = {
+		AC93B1C5251BC3EA00EA207A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0D16EB250A8FC6005E08EC /* UIViewControllerExtension.swift in Sources */,
-				AC0D16ED250A92A9005E08EC /* UITableViewExtension.swift in Sources */,
-				ACE2D71524F95D9700D51DF4 /* AppDelegate.swift in Sources */,
-				AC0D16F7250A9773005E08EC /* UIColorExtension.swift in Sources */,
-				AC0D16E7250A8E74005E08EC /* CategoriesViewController.swift in Sources */,
-				AC0D16F5250A96CA005E08EC /* UITableViewCellExtension.swift in Sources */,
-				ACE2D71724F95D9700D51DF4 /* SceneDelegate.swift in Sources */,
-				AC0D16F9250A9B6F005E08EC /* UILabelExtension.swift in Sources */,
-				AC0D16F2250A9591005E08EC /* CategoryTableViewCell.swift in Sources */,
+				AC93B1CD251BC3EA00EA207A /* AppDelegate.swift in Sources */,
+				AC93B1CF251BC3EA00EA207A /* SceneDelegate.swift in Sources */,
+				AC93B20C251BCF8B00EA207A /* StringExtension.swift in Sources */,
+				AC93B1FC251BC45700EA207A /* UITableViewCellExtension.swift in Sources */,
+				AC93B1F0251BC44000EA207A /* CategoriesViewController.swift in Sources */,
+				AC93B1FF251BC45700EA207A /* UIViewControllerExtension.swift in Sources */,
+				AC93B1FE251BC45700EA207A /* UILabelExtension.swift in Sources */,
+				AC93B200251BC45700EA207A /* UITableViewExtension.swift in Sources */,
+				AC93B1F1251BC44000EA207A /* CategoryTableViewCell.swift in Sources */,
+				AC93B1FD251BC45700EA207A /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACE2D71F24F95D9900D51DF4 /* LaunchScreen.storyboard */ = {
+		AC93B1D7251BC3EB00EA207A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ACE2D72024F95D9900D51DF4 /* Base */,
+				AC93B1D8251BC3EB00EA207A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -326,7 +265,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ACE2D72324F95D9900D51DF4 /* Debug */ = {
+		AC93B1DB251BC3EB00EA207A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,6 +291,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -376,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -386,7 +326,7 @@
 			};
 			name = Debug;
 		};
-		ACE2D72424F95D9900D51DF4 /* Release */ = {
+		AC93B1DC251BC3EB00EA207A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,6 +352,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -430,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,41 +381,37 @@
 			};
 			name = Release;
 		};
-		ACE2D72624F95D9900D51DF4 /* Debug */ = {
+		AC93B1DE251BC3EB00EA207A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED366A5920102B14C5DBE204 /* Pods-nerdeame-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SJGR47U9J5;
-				INFOPLIST_FILE = "$(SRCROOT)/nerdeame-ios/SupportingFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = "nerdeame-ios/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mouredev.nerdeame-ios";
-				PRODUCT_NAME = "Nerdéame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		ACE2D72724F95D9900D51DF4 /* Release */ = {
+		AC93B1DF251BC3EB00EA207A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6AC067B2F14305E78C82E28 /* Pods-nerdeame-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SJGR47U9J5;
-				INFOPLIST_FILE = "$(SRCROOT)/nerdeame-ios/SupportingFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				INFOPLIST_FILE = "nerdeame-ios/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mouredev.nerdeame-ios";
-				PRODUCT_NAME = "Nerdéame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,25 +420,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACE2D70C24F95D9700D51DF4 /* Build configuration list for PBXProject "nerdeame-ios" */ = {
+		AC93B1C4251BC3EA00EA207A /* Build configuration list for PBXProject "nerdeame-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACE2D72324F95D9900D51DF4 /* Debug */,
-				ACE2D72424F95D9900D51DF4 /* Release */,
+				AC93B1DB251BC3EB00EA207A /* Debug */,
+				AC93B1DC251BC3EB00EA207A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACE2D72524F95D9900D51DF4 /* Build configuration list for PBXNativeTarget "nerdeame-ios" */ = {
+		AC93B1DD251BC3EB00EA207A /* Build configuration list for PBXNativeTarget "nerdeame-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACE2D72624F95D9900D51DF4 /* Debug */,
-				ACE2D72724F95D9900D51DF4 /* Release */,
+				AC93B1DE251BC3EB00EA207A /* Debug */,
+				AC93B1DF251BC3EB00EA207A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ACE2D70924F95D9700D51DF4 /* Project object */;
+	rootObject = AC93B1C1251BC3EA00EA207A /* Project object */;
 }

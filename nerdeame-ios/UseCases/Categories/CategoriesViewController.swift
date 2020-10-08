@@ -117,7 +117,7 @@ extension CategoriesViewController: UITableViewDataSource, UITableViewDelegate {
         case .subcategory:
             navigationController?.pushViewController(CategoriesViewController(mode: .creator), animated: true)
         case .creator:
-            break
+            navigationController?.pushViewController(DetailViewController(creator: "Creator \(indexPath.row + 1)"), animated: true)
         }
         
     }

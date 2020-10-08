@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC47CB7F252F84B100057B3B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47CB7D252F84B100057B3B /* DetailViewController.swift */; };
+		AC47CB80252F84B100057B3B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC47CB7E252F84B100057B3B /* DetailViewController.xib */; };
+		AC47CB85252F8D7A00057B3B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC47CB84252F8D7A00057B3B /* UIViewExtension.swift */; };
 		AC93B1CD251BC3EA00EA207A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1CC251BC3EA00EA207A /* AppDelegate.swift */; };
 		AC93B1CF251BC3EA00EA207A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93B1CE251BC3EA00EA207A /* SceneDelegate.swift */; };
 		AC93B1D6251BC3EB00EA207A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC93B1D5251BC3EB00EA207A /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC47CB7D252F84B100057B3B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC47CB7E252F84B100057B3B /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		AC47CB84252F8D7A00057B3B /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		AC93B1C9251BC3EA00EA207A /* nerdeame-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nerdeame-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC93B1CC251BC3EA00EA207A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC93B1CE251BC3EA00EA207A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC47CB7C252F848500057B3B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AC47CB7E252F84B100057B3B /* DetailViewController.xib */,
+				AC47CB7D252F84B100057B3B /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		AC93B1C0251BC3EA00EA207A = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +105,7 @@
 			children = (
 				AC93B1EC251BC44000EA207A /* Launch */,
 				AC93B1E6251BC44000EA207A /* Categories */,
+				AC47CB7C252F848500057B3B /* Detail */,
 				AC93B1E5251BC44000EA207A /* Common */,
 			);
 			path = UseCases;
@@ -105,9 +121,9 @@
 		AC93B1E6251BC44000EA207A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				AC93B1E9251BC44000EA207A /* Cell */,
 				AC93B1E7251BC44000EA207A /* CategoriesViewController.xib */,
 				AC93B1E8251BC44000EA207A /* CategoriesViewController.swift */,
-				AC93B1E9251BC44000EA207A /* Cell */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -146,6 +162,7 @@
 				AC93B1FA251BC45700EA207A /* UIViewControllerExtension.swift */,
 				AC93B1FB251BC45700EA207A /* UITableViewExtension.swift */,
 				AC93B20B251BCF8B00EA207A /* StringExtension.swift */,
+				AC47CB84252F8D7A00057B3B /* UIViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -224,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC93B209251BCF0000EA207A /* Localizable.strings in Resources */,
+				AC47CB80252F84B100057B3B /* DetailViewController.xib in Resources */,
 				AC93B1D9251BC3EB00EA207A /* LaunchScreen.storyboard in Resources */,
 				AC93B1D6251BC3EB00EA207A /* Assets.xcassets in Resources */,
 				AC93B1EF251BC44000EA207A /* CategoriesViewController.xib in Resources */,
@@ -238,11 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC47CB7F252F84B100057B3B /* DetailViewController.swift in Sources */,
 				AC93B1CD251BC3EA00EA207A /* AppDelegate.swift in Sources */,
 				AC93B1CF251BC3EA00EA207A /* SceneDelegate.swift in Sources */,
 				AC93B20C251BCF8B00EA207A /* StringExtension.swift in Sources */,
 				AC93B1FC251BC45700EA207A /* UITableViewCellExtension.swift in Sources */,
 				AC93B1F0251BC44000EA207A /* CategoriesViewController.swift in Sources */,
+				AC47CB85252F8D7A00057B3B /* UIViewExtension.swift in Sources */,
 				AC93B1FF251BC45700EA207A /* UIViewControllerExtension.swift in Sources */,
 				AC93B1FE251BC45700EA207A /* UILabelExtension.swift in Sources */,
 				AC93B200251BC45700EA207A /* UITableViewExtension.swift in Sources */,

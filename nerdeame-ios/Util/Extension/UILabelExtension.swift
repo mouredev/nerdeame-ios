@@ -11,8 +11,15 @@ import UIKit
 extension UILabel {
     
     func primary() {
-        
         textColor = .secondary
+    }
+    
+    func secondary() {
+        textColor = .primary
+    }
+    
+    func center() {
+        textAlignment = .center
     }
     
 }
